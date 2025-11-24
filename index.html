@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Guia-ABNT-Completo</title>
+
+  <!-- Bootstrap (grid + utilities) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Material-ish icons (optional) -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- SIDEBAR -->
+  <aside id="sidebar" class="sidebar" aria-label="Menu lateral">
+    <div class="sidebar-header">
+      <h3 class="brand">Guia-ABNT-Completo<br><small>ABNT</small></h3>
+      <button id="closeSidebar" class="btn-close" aria-label="Fechar menu"></button>
+    </div>
+
+    <nav class="sidebar-nav" role="navigation" aria-label="Navegação principal">
+      <button class="sidebar-item" data-filter="">Todas</button>
+      <hr>
+      <div class="sidebar-section-title">Normas</div>
+      <button class="sidebar-item" data-filter="abnt">Normas ABNT</button>
+
+      <div class="sidebar-section-title">Universidades</div>
+      <button class="sidebar-item" data-filter="usp">USP</button>
+      <button class="sidebar-item" data-filter="unicamp">UNICAMP</button>
+      <button class="sidebar-item" data-filter="unesp">UNESP</button>
+      <button class="sidebar-item" data-filter="ufscar">UFSCAR</button>
+      <button class="sidebar-item" data-filter="fatec">FATEC</button>
+
+      <hr>
+      <div class="sidebar-section-title">Utilitários</div>
+      <button class="sidebar-item" id="btn-show-all">Mostrar todos</button>
+    </nav>
+
+    <div class="sidebar-footer">
+      <small>Desenvolvido por Mateus</small>
+    </div>
+  </aside>
+
+  <!-- CONTENT -->
+  <div id="main" class="main">
+
+    <!-- TOPBAR -->
+    <header class="topbar d-flex align-items-center justify-content-between">
+      <div class="d-flex align-items-center gap-2">
+        <button id="toggleSidebar" class="btn btn-ghost" aria-label="Abrir menu">☰</button>
+        <h4 class="mb-0">Guia-ABNT-Completo</h4>
+      </div>
+
+      <div class="d-flex align-items-center gap-2">
+        <input id="searchBox" class="form-control form-control-sm" type="search" placeholder="Pesquisar normas, exemplos, universidades..." aria-label="Pesquisar">
+        <select id="filterCategoria" class="form-select form-select-sm">
+          <option value="">Filtrar por categoria</option>
+        </select>
+      </div>
+    </header>
+
+    <!-- MAIN CONTAINER -->
+    <main class="container py-4">
+      <div id="cards-container" class="row g-4" aria-live="polite">
+        <!-- Cards renderizados via script.js -->
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-light py-3">
+      <div class="container d-flex justify-content-between align-items-center">
+        <div>
+          <div>
+            “Este conteúdo foi elaborado a partir de pesquisas em instituições de referência e serve exclusivamente como material de apoio e consulta. Sempre verifique as normas e orientações oficiais da sua instituição de ensino.”
+          </div>
+          <strong>Guia-ABNT-Completo</strong> — Mateus • 2025
+        </div>
+        <div class="text-muted small">
+          Fontes: ABNT, USP, UNICAMP, UNESP, UFSCAR, FATEC
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

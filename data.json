@@ -1,0 +1,359 @@
+[
+  {
+    "nome": "Formatação Geral do TCC",
+    "categoria": "abnt",
+    "descricao": "Formatação segundo ABNT NBR 14724: papel A4; fonte Arial ou Times New Roman tamanho 12; margens: esquerda 3 cm, superior/direita/inferior 2 cm; alinhamento justificado; espaçamento 1,5 no corpo do texto; espaçamento simples em citações longas, notas e referências; recuo de parágrafo 1,25 cm; sem espaço extra entre parágrafos.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Texto: Times New Roman 12, espaçamento 1,5, recuo de 1,25 cm."
+  },
+  {
+    "nome": "Referências Bibliográficas",
+    "categoria": "abnt",
+    "descricao": "Norma ABNT NBR 6023: referências alinhadas à esquerda, fonte tamanho 12, espaçamento simples, separadas entre si por espaçamento duplo; sobrenome dos autores em caixa alta; segunda linha com recuo de 4 cm (hanging indent). Ordem dos elementos: AUTOR. Título. Edição. Local: Editora, ano.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "SOBRENOME, Nome. Título. Local: Editora, ano."
+  },
+  {
+    "nome": "Citações (NBR 10520)",
+    "categoria": "abnt",
+    "descricao": "Citação direta curta: até 3 linhas, fonte 12, entre aspas, dentro do parágrafo. Citação direta longa: mais de 3 linhas, recuo de 4 cm, fonte 10, espaçamento simples, sem aspas. Citação indireta: texto próprio, sem aspas. Citação de citação (apud): AUTOR ORIGINAL (ano apud AUTOR CONSULTADO, ano).",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "“Texto citado” (AUTOR, ano, p. 10)."
+  },
+  {
+    "nome": "Resumo e Abstract",
+    "categoria": "abnt",
+    "descricao": "NBR 6028: Resumo alinhado justificado, fonte 12, espaçamento simples. Deve conter entre 150 e 500 palavras (TCCs geralmente entre 150 e 250). Palavras-chave com iniciais maiúsculas, separadas por ponto e finalizadas com ponto. Abstract segue as mesmas regras em inglês.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "Resumo de 150–250 palavras; palavras-chave: Tema. Método. Objetivo."
+  },
+  {
+    "nome": "Sumário",
+    "categoria": "abnt",
+    "descricao": "NBR 6027: Sumário alinhado à esquerda, espaçamento simples, fonte 12. Utilizar 'líder' (pontos) para alinhar títulos com a numeração das páginas à direita. Títulos devem ser numerados conforme hierarquia (1, 1.1, 1.1.1).",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "1 INTRODUÇÃO ........................................... 1"
+  },
+  {
+    "nome": "Elementos Pré-textuais",
+    "categoria": "pre-textual",
+    "descricao": "Incluem capa, folha de rosto, folha de aprovação, dedicatória, agradecimentos, resumo, listas e sumário. Capa: todos os elementos centralizados; fonte 12; nome da instituição no topo; título em caixa alta no centro. Folha de rosto inclui natureza do trabalho, objetivo, instituição e orientador.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "Folha de rosto com título centralizado e informações acadêmicas."
+  },
+  {
+    "nome": "Elementos Pós-textuais",
+    "categoria": "pos-textual",
+    "descricao": "Compreendem: referências, apêndices e anexos. Apêndices: material criado pelo autor. Anexos: material de terceiros. Títulos centralizados, em caixa alta e espaçamento simples.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "APÊNDICE A – Questionário aplicado."
+  },
+  {
+    "nome": "Numeração de Páginas",
+    "categoria": "formatação",
+    "descricao": "A numeração é contada desde a folha de rosto, mas só deve ser exibida a partir da introdução. O número deve aparecer no canto superior direito, em fonte 12, sem ponto ou traço.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "Página 1 começa na introdução."
+  },
+  {
+    "nome": "Figuras e Ilustrações",
+    "categoria": "ilustracoes",
+    "descricao": "Legenda abaixo da figura, alinhada ao centro, fonte 10. As figuras devem estar inseridas o mais próximo possível do trecho citado. Numerar sequencialmente: Figura 1, Figura 2, etc.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "Figura 1 – Diagrama do processo. Fonte: Autor."
+  },
+  {
+    "nome": "Tabelas e Quadros",
+    "categoria": "ilustracoes",
+    "descricao": "Títulos das tabelas vêm acima; legenda centralizada e fonte 10. Notas e fontes vão abaixo. Evitar bordas internas. Quadros seguem lógica semelhante, porém apresentam dados textuais.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "Tabela 1 – Resultados obtidos."
+  },
+  {
+    "nome": "Notas de Rodapé",
+    "categoria": "abnt",
+    "descricao": "Devem ser usadas para comentários complementares. Fonte 10; alinhamento à esquerda; espaçamento simples; numeração sequencial por página.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Nota explicativa detalhando conceito."
+  },
+  {
+    "nome": "Citação Apud",
+    "categoria": "abnt",
+    "descricao": "Utilizar quando não se teve acesso à obra original. Formato: AUTOR ORIGINAL (ano apud AUTOR CITADO, ano). Deve ser evitado quando possível.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "SILVA (1999 apud PEREIRA, 2012)."
+  },
+  {
+    "nome": "Referência de Livro",
+    "categoria": "referencias",
+    "descripcion": "Formato: autor em caixa alta, seguido do título em negrito, edição, local, editora e ano. Fonte 12, espaçamento simples.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "CASTELLS, Manuel. A sociedade em rede. São Paulo: Paz e Terra, 1999."
+  },
+  {
+    "nome": "Referência de Artigo",
+    "categoria": "referencias",
+    "descripcion": "Formato: AUTOR. Título do artigo. Nome da revista em destaque, volume, número, páginas e ano.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "SOBRENOME, Nome. Título. Revista X, v. 10, n. 2, p. 1–10, 2020."
+  },
+  {
+    "nome": "Referência de Documento Online",
+    "categoria": "referencias",
+    "descricao": "Inclui autor, título, ano, link completo e data de acesso. Usar 'Disponível em:' e 'Acesso em:'.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "Disponível em: URL. Acesso em: 01 jan. 2025."
+  },
+  {
+    "nome": "Referência com DOI",
+    "categoria": "referencias",
+    "descricao": "Quando disponível, incluir DOI ao final da referência. Usar formato https://doi.org/...",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "https://doi.org/10.xxxx/xxxx"
+  },
+  {
+    "nome": "Ficha Catalográfica",
+    "categoria": "pre-textual",
+    "descricao": "Deve ser incluída na folha de rosto ou verso da folha de rosto. Contém dados como assunto, autor, título, local, ano e CDU.",
+    "link": "https://www.teses.usp.br",
+    "exemplo": "Ficha padronizada fornecida pela biblioteca."
+  },
+  {
+    "nome": "Capa e Folha de Rosto",
+    "categoria": "pre-textual",
+    "descricao": "Capa: título centralizado; instituição no topo; autor; local e ano no rodapé. Folha de rosto: título, nome do autor, natureza do trabalho, orientador e instituição.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "Título em caixa alta centralizado."
+  },
+  {
+    "nome": "Resumo em Inglês (Abstract)",
+    "categoria": "pre-textual",
+    "descricao": "Segue formatação idêntica ao resumo em português: fonte 12, espaçamento simples, 150–500 palavras.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "Abstract com 150–250 palavras."
+  },
+  {
+    "nome": "Sumário Executivo",
+    "categoria": "estrutura",
+    "descricao": "Resumo objetivo de 1 página, com fonte 12, espaçamento simples, apresentando resultados principais.",
+    "link": "https://www.ifb.edu.br/attachments/article/108446/Manual%20de%20TCC%20IFB.pdf",
+    "exemplo": "Resumo de 1 página com principais achados."
+  },
+  {
+    "nome": "Introdução",
+    "categoria": "estrutura",
+    "descricao": "Fonte 12, espaçamento 1,5; apresentar contextualização, problema, objetivos e justificativa.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Definir objetivos geral e específicos."
+  },
+  {
+    "nome": "Revisão de Literatura",
+    "categoria": "estrutura",
+    "descricao": "Dividida por temas; fonte 12; espaçamento 1,5. Citações devem seguir NBR 10520.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Organizar tópicos com autores relevantes."
+  },
+  {
+    "nome": "Metodologia",
+    "categoria": "estrutura",
+    "descricao": "Descrição detalhada dos métodos, instrumentos e amostra. Fonte 12, espaçamento 1,5.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Explicar cada etapa do procedimento."
+  },
+  {
+    "nome": "Resultados",
+    "categoria": "estrutura",
+    "descricao": "Apresentar dados em tabelas, quadros ou texto. Fonte 12, espaçamento 1,5.",
+    "link": "https://www.ifb.edu.br/attachments/article/108446/Manual%20de%20TCC%20IFB.pdf",
+    "exemplo": "Resultados numéricos com gráficos."
+  },
+  {
+    "nome": "Discussão",
+    "categoria": "estrutura",
+    "descricao": "Relacionar os resultados com a literatura. Fonte 12, espaçamento 1,5.",
+    "link": "https://www.ifb.edu.br/attachments/article/108446/Manual%20de%20TCC%20IFB.pdf",
+    "exemplo": "Comparar achados com autores."
+  },
+  {
+    "nome": "Conclusão",
+    "categoria": "estrutura",
+    "descricao": "Apresentar síntese final, limitações e sugestões. Fonte 12, espaçamento 1,5.",
+    "link": "https://www.ifb.edu.br/attachments/article/108446/Manual%20de%20TCC%20IFB.pdf",
+    "exemplo": "Responder aos objetivos propostos."
+  },
+  {
+    "nome": "Apêndices",
+    "categoria": "pos-textual",
+    "descricao": "Material criado pelo autor; título centralizado e em caixa alta. Folha específica para cada apêndice.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "APÊNDICE A – Roteiro de entrevista."
+  },
+  {
+    "nome": "Anexos",
+    "categoria": "pos-textual",
+    "descricao": "Material de terceiros, organizado por letras: ANEXO A, ANEXO B etc.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "ANEXO A – Documento externo."
+  },
+  {
+    "nome": "Glossário",
+    "categoria": "pos-textual",
+    "descricao": "Lista de termos técnicos em ordem alfabética, fonte 12, espaçamento simples.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "API – Application Programming Interface."
+  },
+  {
+    "nome": "Lista de Abreviaturas e Siglas",
+    "categoria": "pre-textual",
+    "descricao": "Organizar em ordem alfabética; alinhamento à esquerda; espaçamento simples; fonte 12.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "ABNT – Associação Brasileira de Normas Técnicas."
+  },
+  {
+    "nome": "Lista de Símbolos",
+    "categoria": "pre-textual",
+    "descricao": "Organizar símbolos e unidades; espaçamento simples; fonte 12.",
+    "link": "https://repositorio.ifsc.edu.br/handle/123456789/1526",
+    "exemplo": "Δ – Variação."
+  },
+  {
+    "nome": "UFSCAR — Manual de TCC",
+    "categoria": "ufscar",
+    "descricao": "Contém formatação completa: capas, margens, sumário, citações. Usa padrão ABNT.",
+    "link": "https://www.ufscar.br",
+    "exemplo": "Modelos prontos de capa e folha de rosto."
+  },
+  {
+    "nome": "USP — Manual de Teses",
+    "categoria": "usp",
+    "descricao": "Diretrizes da USP para formatação: citações, referências, margens, estrutura.",
+    "link": "https://www.teses.usp.br",
+    "exemplo": "Modelos de ficha catalográfica."
+  },
+  {
+    "nome": "UNICAMP — Normalização",
+    "categoria": "unicamp",
+    "descricao": "Guia institucional seguindo normas ABNT; orientações completas para TCC.",
+    "link": "https://www.sbu.unicamp.br",
+    "exemplo": "Modelos de sumário e capa."
+  },
+  {
+    "nome": "UNESP — Manual",
+    "categoria": "unesp",
+    "descricao": "Roteiros de normalização e checklist final. Segue NBR 14724 e 6023.",
+    "link": "https://www.unesp.br",
+    "exemplo": "Aplicação da norma em referências."
+  },
+  {
+    "nome": "FATEC — Diretrizes",
+    "categoria": "fatec",
+    "descricao": "Modelos institucionais e regras locais baseadas na ABNT.",
+    "link": "https://fatec.sp.gov.br",
+    "exemplo": "Capa e folha de rosto padronizadas."
+  },
+  {
+    "nome": "Apresentação Oral (Slides)",
+    "categoria": "apresentacao",
+    "descricao": "Slides com fonte mínima 24, fundo limpo, pouco texto, até 15 slides. Deve seguir identidade visual institucional.",
+    "link": "https://www.livrosabertos.abcd.usp.br",
+    "exemplo": "Uso de gráficos simples e com legenda."
+  },
+  {
+    "nome": "Termo de Consentimento Livre e Esclarecido",
+    "categoria": "documentos",
+    "descricao": "Documento com objetivo, riscos, benefícios e assinatura dos participantes. Fonte 12; espaçamento 1,5.",
+    "link": "https://www.ifb.edu.br/attachments/article/108446/Manual%20de%20TCC%20IFB.pdf",
+    "exemplo": "Explicação completa do processo de pesquisa."
+  },
+  {
+    "nome": "Checklist de Qualidade (ABNT)",
+    "categoria": "guia",
+    "descricao": "Lista de verificação final: margens, espaçamento, citações, referências, sumário e numeração.",
+    "link": "https://www.itapeva.unesp.br/Home/Biblioteca/manual-de-normalizacao-para-trabalhos-academicos.pdf",
+    "exemplo": "Verificar se sumário está alinhado com páginas."
+  },
+  {
+    "nome": "Formatação de Tabelas no Word",
+    "categoria": "ferramenta",
+    "descricao": "Usar estilos de tabela; legenda acima; fonte 10; sem bordas internas excessivas.",
+    "link": "https://support.microsoft.com",
+    "exemplo": "Formato padrão com cabeçalho destacado."
+  },
+  {
+    "nome": "Formatação de Tabelas no LaTeX",
+    "categoria": "ferramenta",
+    "descricao": "Utilizar pacote 'booktabs' e 'caption'; legenda acima; fonte menor para tabelas longas.",
+    "link": "https://www.overleaf.com/learn",
+    "exemplo": "\\begin{table} ... \\caption{Tabela 1} \\end{table}"
+  },
+  {
+    "nome": "Como Evitar Plágio",
+    "categoria": "ética",
+    "descricao": "Utilizar citações diretas e indiretas corretamente. Garantir originalidade. Usar ferramentas antiplágio.",
+    "link": "https://www.plagiarism.org",
+    "exemplo": "Sempre citar autor, ano e página."
+  },
+  {
+    "nome": "Citação Direta Longa",
+    "categoria": "abnt",
+    "descricao": "Trechos com mais de 3 linhas devem ter recuo de 4 cm, fonte 10, espaçamento simples, sem aspas.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Trecho destacado com margem recuada."
+  },
+  {
+    "nome": "Citação Indireta",
+    "categoria": "abnt",
+    "descricao": "Reescrever ideias com suas próprias palavras. Deve incluir autor e ano.",
+    "link": "https://www.ufmg.br/prograd/wp-content/uploads/2022/02/manual-abnt-ufmg.pdf",
+    "exemplo": "Segundo Silva (2020), o processo..."
+  },
+  {
+    "nome": "Referência de TCC",
+    "categoria": "referencias",
+    "descricao": "Formato: AUTOR. Título. Ano. Tipo de trabalho (TCC, monografia). Instituição.",
+    "link": "https://repositorio.ufsc.br/handle/123456789/215663",
+    "exemplo": "SOBRENOME, Nome. Título. Trabalho (TCC) – Instituição, 2023."
+  },
+  {
+    "nome": "Guia USP — Citações e Referências",
+    "categoria": "usp",
+    "descricao": "Guia institucional explicando as normas de citações, referências e formatação.",
+    "link": "https://www.teses.usp.br",
+    "exemplo": "Modelos de referências e exemplos revisados."
+  },
+  {
+    "nome": "Guia UNICAMP — Formatação",
+    "categoria": "unicamp",
+    "descricao": "Instruções específicas da UNICAMP com base nas normas ABNT.",
+    "link": "https://www.sbu.unicamp.br",
+    "exemplo": "Regras de entrega e diagramação."
+  },
+  {
+    "nome": "Guia UNESP — Modelos e Templates",
+    "categoria": "unesp",
+    "descricao": "Modelos de capa, folha de aprovação e sumário seguindo ABNT.",
+    "link": "https://www.unesp.br",
+    "exemplo": "Template de formatação institucional."
+  },
+  {
+    "nome": "Diretrizes FATEC — Normas Locais",
+    "categoria": "fatec",
+    "descricao": "Regras internas da FATEC baseadas na ABNT. Exemplos práticos para padronização.",
+    "link": "https://fatec.sp.gov.br",
+    "exemplo": "Modelos e instruções para TCC."
+  },
+  {
+    "nome": "Como Montar a Defesa",
+    "categoria": "apresentacao",
+    "descricao": "Organizar apresentação com 10–15 slides, fontes grandes, gráficos simples e clareza. Preparar-se para perguntas.",
+    "link": "https://www.coursera.org",
+    "exemplo": "Slide com tópicos curtos e objetivo."
+  },
+  {
+    "nome": "Modelo de Capa",
+    "categoria": "modelo",
+    "descricao": "Seguir padrão institucional: nome da instituição no topo, nome do aluno, título em caixa alta centralizado, local e ano no rodapé. Fonte 12.",
+    "link": "https://www.livrosabertos.abcd.usp.br",
+    "exemplo": "Elementos centralizados e organizados."
+  }
+]

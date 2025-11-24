@@ -1,0 +1,15 @@
+{
+  "name": "base-de-conhecimento-abnt",
+  "version": "1.0.0",
+  "description": "Base de conhecimento ABNT \"alura\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Mateus Felix de Oliveira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
